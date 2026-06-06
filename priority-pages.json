@@ -1,0 +1,150 @@
+{
+  "generatedAt": "2026-06-06T14:59:53.979Z",
+  "purpose": "High-priority pages for legitimate citation, internal links, and external discovery.",
+  "assets": [
+    {
+      "id": "trashdaynow",
+      "name": "TrashDayNow",
+      "priorityPages": [
+        {
+          "label": "Trash pickup by address",
+          "path": "/trash-pickup-by-address/",
+          "url": "https://www.trashdaynow.com/trash-pickup-by-address/"
+        },
+        {
+          "label": "Trash pickup tomorrow",
+          "path": "/trash-pickup-tomorrow/",
+          "url": "https://www.trashdaynow.com/trash-pickup-tomorrow/"
+        },
+        {
+          "label": "San Antonio trash pickup tomorrow",
+          "path": "/cities/san-antonio-tx-trash-pickup-tomorrow/",
+          "url": "https://www.trashdaynow.com/cities/san-antonio-tx-trash-pickup-tomorrow/"
+        },
+        {
+          "label": "San Antonio trash day",
+          "path": "/cities/san-antonio-tx-trash-day/",
+          "url": "https://www.trashdaynow.com/cities/san-antonio-tx-trash-day/"
+        },
+        {
+          "label": "Miami trash pickup tomorrow",
+          "path": "/cities/miami-fl-trash-pickup-tomorrow/",
+          "url": "https://www.trashdaynow.com/cities/miami-fl-trash-pickup-tomorrow/"
+        },
+        {
+          "label": "Miami garbage pickup schedule",
+          "path": "/cities/miami-fl-trash-pickup/",
+          "url": "https://www.trashdaynow.com/cities/miami-fl-trash-pickup/"
+        }
+      ]
+    },
+    {
+      "id": "streetsweepradar",
+      "name": "StreetSweepRadar",
+      "priorityPages": [
+        {
+          "label": "Street sweeping by address",
+          "path": "/street-sweeping-by-address/",
+          "url": "https://www.streetsweepradar.com/street-sweeping-by-address/"
+        },
+        {
+          "label": "Street sweeping today",
+          "path": "/street-sweeping-today/",
+          "url": "https://www.streetsweepradar.com/street-sweeping-today/"
+        },
+        {
+          "label": "Oakland street sweeping holidays",
+          "path": "/cities/oakland-ca-street-sweeping-holidays/",
+          "url": "https://www.streetsweepradar.com/cities/oakland-ca-street-sweeping-holidays/"
+        },
+        {
+          "label": "DC street sweeping holidays",
+          "path": "/cities/washington-dc-street-sweeping-holidays/",
+          "url": "https://www.streetsweepradar.com/cities/washington-dc-street-sweeping-holidays/"
+        },
+        {
+          "label": "Glendale street sweeping schedule",
+          "path": "/cities/glendale-ca-street-sweeping-schedule/",
+          "url": "https://www.streetsweepradar.com/cities/glendale-ca-street-sweeping-schedule/"
+        },
+        {
+          "label": "San Diego street sweeping",
+          "path": "/cities/san-diego-ca-street-sweeping/",
+          "url": "https://www.streetsweepradar.com/cities/san-diego-ca-street-sweeping/"
+        }
+      ]
+    },
+    {
+      "id": "permitpulse",
+      "name": "Build Permit Radar",
+      "priorityPages": [
+        {
+          "label": "Building permits by address",
+          "path": "/building-permits-by-address/",
+          "url": "https://www.buildpermitradar.com/building-permits-by-address/"
+        },
+        {
+          "label": "Open permits on property",
+          "path": "/open-permits-on-property/",
+          "url": "https://www.buildpermitradar.com/open-permits-on-property/"
+        },
+        {
+          "label": "Building permit history",
+          "path": "/building-permit-history/",
+          "url": "https://www.buildpermitradar.com/building-permit-history/"
+        },
+        {
+          "label": "San Jose permit lookup",
+          "path": "/cities/san-jose-ca-permit-lookup/",
+          "url": "https://www.buildpermitradar.com/cities/san-jose-ca-permit-lookup/"
+        },
+        {
+          "label": "San Jose building permit history",
+          "path": "/cities/san-jose-ca-building-permit-history/",
+          "url": "https://www.buildpermitradar.com/cities/san-jose-ca-building-permit-history/"
+        },
+        {
+          "label": "Houston building permit search",
+          "path": "/cities/houston-tx-building-permits/",
+          "url": "https://www.buildpermitradar.com/cities/houston-tx-building-permits/"
+        }
+      ]
+    },
+    {
+      "id": "schoolzonecheck",
+      "name": "SchoolZoneCheck",
+      "priorityPages": [
+        {
+          "label": "School zone lookup by address",
+          "path": "/school-zone-lookup-by-address/",
+          "url": "https://www.schoolzonecheck.com/school-zone-lookup-by-address/"
+        },
+        {
+          "label": "School finder by address",
+          "path": "/school-finder-by-address/",
+          "url": "https://www.schoolzonecheck.com/school-finder-by-address/"
+        },
+        {
+          "label": "School attendance zone by address",
+          "path": "/school-attendance-zone-by-address/",
+          "url": "https://www.schoolzonecheck.com/school-attendance-zone-by-address/"
+        },
+        {
+          "label": "Dallas ISD school finder",
+          "path": "/districts/dallas-isd-tx-school-finder/",
+          "url": "https://www.schoolzonecheck.com/districts/dallas-isd-tx-school-finder/"
+        },
+        {
+          "label": "Dallas ISD school locator",
+          "path": "/districts/dallas-isd-tx-school-locator/",
+          "url": "https://www.schoolzonecheck.com/districts/dallas-isd-tx-school-locator/"
+        },
+        {
+          "label": "Dallas ISD school zones",
+          "path": "/districts/dallas-isd-tx/",
+          "url": "https://www.schoolzonecheck.com/districts/dallas-isd-tx/"
+        }
+      ]
+    }
+  ]
+}

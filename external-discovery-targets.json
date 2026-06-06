@@ -1,0 +1,100 @@
+{
+  "generatedAt": "2026-06-06T00:00:00.000Z",
+  "policy": "Legitimate external discovery only. Do not mass-submit, spam-bookmark, or present portfolio sites as official agencies.",
+  "reviewRules": [
+    "Submit only when the placement helps the target site's users.",
+    "Prefer a specific city, district, data, widget, or source-coverage URL over a generic homepage.",
+    "Do not use automated form submission unless the destination explicitly permits it.",
+    "Do not create low-quality forum, comment, profile, or bookmark links.",
+    "Use clear disclosure that each site is an independent public web utility, not an official agency."
+  ],
+  "targets": [
+    {
+      "id": "github-public-data-repo",
+      "category": "public-data-repository",
+      "priority": "P0",
+      "assetIds": [
+        "trashdaynow",
+        "streetsweepradar",
+        "permitpulse",
+        "schoolzonecheck"
+      ],
+      "placement": "Public GitHub repository for source coverage, catalog, data.json, priority pages, and widgets.",
+      "recommendedUrl": "https://github.com/bineyamtsegaye1-cyber/portfolio-public-data",
+      "suggestedAnchor": "public source coverage and answer metadata",
+      "reason": "Creates a citeable, crawlable, versioned public-data surface for search engines, AI answer systems, civic-tech users, and legitimate directories.",
+      "status": "ready_when_github_token_available"
+    },
+    {
+      "id": "local-resource-pages",
+      "category": "local-resource-guides",
+      "priority": "P1",
+      "assetIds": [
+        "trashdaynow",
+        "streetsweepradar",
+        "schoolzonecheck",
+        "permitpulse"
+      ],
+      "placement": "Neighborhood, apartment, HOA, property-management, local blog, relocation, and real-estate resource pages.",
+      "suggestedAnchor": "address lookup for local public-service answers",
+      "reason": "These placements help users solve address-based questions and are natural places for widgets or specific city pages.",
+      "status": "candidate_requires_human_review"
+    },
+    {
+      "id": "civic-tech-open-data-lists",
+      "category": "civic-tech-open-data",
+      "priority": "P1",
+      "assetIds": [
+        "permitpulse",
+        "schoolzonecheck",
+        "streetsweepradar",
+        "trashdaynow"
+      ],
+      "placement": "Open-data, civic-tech, municipal transparency, and public-record resource lists where source coverage is useful.",
+      "suggestedAnchor": "public source coverage map",
+      "reason": "Source coverage JSON/CSV and official-source notes are useful for civic-tech discovery without pretending to be official records.",
+      "status": "candidate_requires_human_review"
+    },
+    {
+      "id": "moving-and-homebuyer-guides",
+      "category": "moving-real-estate-guides",
+      "priority": "P1",
+      "assetIds": [
+        "schoolzonecheck",
+        "permitpulse",
+        "trashdaynow"
+      ],
+      "placement": "Moving checklists, renter guides, homebuyer due-diligence guides, relocation pages, and landlord/property-manager resource hubs.",
+      "suggestedAnchor": "address-based moving and property checks",
+      "reason": "School zones, permit records, and trash pickup are common moving/homebuyer questions with high practical value.",
+      "status": "candidate_requires_human_review"
+    },
+    {
+      "id": "parking-and-transport-guides",
+      "category": "parking-transport-guides",
+      "priority": "P1",
+      "assetIds": [
+        "streetsweepradar"
+      ],
+      "placement": "City parking guides, campus parking pages, neighborhood guides, and local travel pages where curb-rule checks help drivers.",
+      "suggestedAnchor": "street sweeping and parking-risk check",
+      "reason": "Street sweeping pages can help drivers avoid tickets and support highly specific city query pages.",
+      "status": "candidate_requires_human_review"
+    },
+    {
+      "id": "api-and-widget-directories",
+      "category": "api-widget-directories",
+      "priority": "P2",
+      "assetIds": [
+        "trashdaynow",
+        "streetsweepradar",
+        "permitpulse",
+        "schoolzonecheck"
+      ],
+      "placement": "Developer-resource lists, widget galleries, no-code embed directories, and API catalogs that accept useful public web tools.",
+      "suggestedAnchor": "public answer API and embeddable widgets",
+      "reason": "The generated Answer API docs and widget pages are legitimate discovery surfaces for reuse.",
+      "status": "candidate_requires_human_review"
+    }
+  ]
+}

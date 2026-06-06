@@ -1,0 +1,228 @@
+{
+  "generatedAt": "2026-06-06T14:59:53.979Z",
+  "name": "Portfolio Public Answer Coverage Catalog",
+  "description": "Source-backed public metadata for the portfolio's strongest address-based public-service answer sites.",
+  "license": "Citation metadata only. Official source owners retain their own data rights.",
+  "trustPolicy": [
+    "This repository publishes public citation metadata only.",
+    "Official source owners retain their own data rights.",
+    "Do not treat source coverage as a final official decision.",
+    "Never invent trash schedules, street rules, school assignments, permit records, or confidence labels.",
+    "Use the linked official source and canonical page for final records."
+  ],
+  "githubTopics": [
+    "open-data",
+    "civic-tech",
+    "local-government",
+    "public-service",
+    "source-coverage",
+    "address-lookup",
+    "search-utilities"
+  ],
+  "assets": [
+    {
+      "id": "trashdaynow",
+      "name": "TrashDayNow",
+      "siteUrl": "https://www.trashdaynow.com",
+      "topic": "trash pickup schedules by address",
+      "widgetSlug": "trash-day-widget",
+      "priorityPages": [
+        {
+          "label": "Trash pickup by address",
+          "path": "/trash-pickup-by-address/",
+          "url": "https://www.trashdaynow.com/trash-pickup-by-address/"
+        },
+        {
+          "label": "Trash pickup tomorrow",
+          "path": "/trash-pickup-tomorrow/",
+          "url": "https://www.trashdaynow.com/trash-pickup-tomorrow/"
+        },
+        {
+          "label": "San Antonio trash pickup tomorrow",
+          "path": "/cities/san-antonio-tx-trash-pickup-tomorrow/",
+          "url": "https://www.trashdaynow.com/cities/san-antonio-tx-trash-pickup-tomorrow/"
+        },
+        {
+          "label": "San Antonio trash day",
+          "path": "/cities/san-antonio-tx-trash-day/",
+          "url": "https://www.trashdaynow.com/cities/san-antonio-tx-trash-day/"
+        },
+        {
+          "label": "Miami trash pickup tomorrow",
+          "path": "/cities/miami-fl-trash-pickup-tomorrow/",
+          "url": "https://www.trashdaynow.com/cities/miami-fl-trash-pickup-tomorrow/"
+        },
+        {
+          "label": "Miami garbage pickup schedule",
+          "path": "/cities/miami-fl-trash-pickup/",
+          "url": "https://www.trashdaynow.com/cities/miami-fl-trash-pickup/"
+        }
+      ],
+      "dataUrl": "https://www.trashdaynow.com/data/",
+      "sourceCoveragePage": "https://www.trashdaynow.com/data/source-coverage/",
+      "sourceCoverageJson": "https://www.trashdaynow.com/data/source-coverage.json",
+      "sourceCoverageCsv": "https://www.trashdaynow.com/data/source-coverage.csv",
+      "priorityAnswersJson": "https://www.trashdaynow.com/data/priority-answers.json",
+      "answerApiDocs": "https://www.trashdaynow.com/data/answer-api/",
+      "answerApi": "https://www.trashdaynow.com/api/answer",
+      "widget": "https://www.trashdaynow.com/widgets/trash-day-widget/",
+      "widgetsIndex": "https://www.trashdaynow.com/widgets/",
+      "llms": "https://www.trashdaynow.com/llms.txt",
+      "sourceSummary": "https://www.trashdaynow.com/source-summary/",
+      "priorityChecks": "https://www.trashdaynow.com/priority-checks/"
+    },
+    {
+      "id": "streetsweepradar",
+      "name": "StreetSweepRadar",
+      "siteUrl": "https://www.streetsweepradar.com",
+      "topic": "street sweeping and curb-rule checks",
+      "widgetSlug": "street-sweeping-badge",
+      "priorityPages": [
+        {
+          "label": "Street sweeping by address",
+          "path": "/street-sweeping-by-address/",
+          "url": "https://www.streetsweepradar.com/street-sweeping-by-address/"
+        },
+        {
+          "label": "Street sweeping today",
+          "path": "/street-sweeping-today/",
+          "url": "https://www.streetsweepradar.com/street-sweeping-today/"
+        },
+        {
+          "label": "Oakland street sweeping holidays",
+          "path": "/cities/oakland-ca-street-sweeping-holidays/",
+          "url": "https://www.streetsweepradar.com/cities/oakland-ca-street-sweeping-holidays/"
+        },
+        {
+          "label": "DC street sweeping holidays",
+          "path": "/cities/washington-dc-street-sweeping-holidays/",
+          "url": "https://www.streetsweepradar.com/cities/washington-dc-street-sweeping-holidays/"
+        },
+        {
+          "label": "Glendale street sweeping schedule",
+          "path": "/cities/glendale-ca-street-sweeping-schedule/",
+          "url": "https://www.streetsweepradar.com/cities/glendale-ca-street-sweeping-schedule/"
+        },
+        {
+          "label": "San Diego street sweeping",
+          "path": "/cities/san-diego-ca-street-sweeping/",
+          "url": "https://www.streetsweepradar.com/cities/san-diego-ca-street-sweeping/"
+        }
+      ],
+      "dataUrl": "https://www.streetsweepradar.com/data/",
+      "sourceCoveragePage": "https://www.streetsweepradar.com/data/source-coverage/",
+      "sourceCoverageJson": "https://www.streetsweepradar.com/data/source-coverage.json",
+      "sourceCoverageCsv": "https://www.streetsweepradar.com/data/source-coverage.csv",
+      "priorityAnswersJson": "https://www.streetsweepradar.com/data/priority-answers.json",
+      "answerApiDocs": "https://www.streetsweepradar.com/data/answer-api/",
+      "answerApi": "https://www.streetsweepradar.com/api/answer",
+      "widget": "https://www.streetsweepradar.com/widgets/street-sweeping-badge/",
+      "widgetsIndex": "https://www.streetsweepradar.com/widgets/",
+      "llms": "https://www.streetsweepradar.com/llms.txt",
+      "sourceSummary": "https://www.streetsweepradar.com/source-summary/",
+      "priorityChecks": "https://www.streetsweepradar.com/priority-checks/"
+    },
+    {
+      "id": "permitpulse",
+      "name": "Build Permit Radar",
+      "siteUrl": "https://www.buildpermitradar.com",
+      "topic": "building permit lookup and property due diligence",
+      "widgetSlug": "permit-lookup-widget",
+      "priorityPages": [
+        {
+          "label": "Building permits by address",
+          "path": "/building-permits-by-address/",
+          "url": "https://www.buildpermitradar.com/building-permits-by-address/"
+        },
+        {
+          "label": "Open permits on property",
+          "path": "/open-permits-on-property/",
+          "url": "https://www.buildpermitradar.com/open-permits-on-property/"
+        },
+        {
+          "label": "Building permit history",
+          "path": "/building-permit-history/",
+          "url": "https://www.buildpermitradar.com/building-permit-history/"
+        },
+        {
+          "label": "San Jose permit lookup",
+          "path": "/cities/san-jose-ca-permit-lookup/",
+          "url": "https://www.buildpermitradar.com/cities/san-jose-ca-permit-lookup/"
+        },
+        {
+          "label": "San Jose building permit history",
+          "path": "/cities/san-jose-ca-building-permit-history/",
+          "url": "https://www.buildpermitradar.com/cities/san-jose-ca-building-permit-history/"
+        },
+        {
+          "label": "Houston building permit search",
+          "path": "/cities/houston-tx-building-permits/",
+          "url": "https://www.buildpermitradar.com/cities/houston-tx-building-permits/"
+        }
+      ],
+      "dataUrl": "https://www.buildpermitradar.com/data/",
+      "sourceCoveragePage": "https://www.buildpermitradar.com/data/source-coverage/",
+      "sourceCoverageJson": "https://www.buildpermitradar.com/data/source-coverage.json",
+      "sourceCoverageCsv": "https://www.buildpermitradar.com/data/source-coverage.csv",
+      "priorityAnswersJson": "https://www.buildpermitradar.com/data/priority-answers.json",
+      "answerApiDocs": "https://www.buildpermitradar.com/data/answer-api/",
+      "answerApi": "https://www.buildpermitradar.com/api/answer",
+      "widget": "https://www.buildpermitradar.com/widgets/permit-lookup-widget/",
+      "widgetsIndex": "https://www.buildpermitradar.com/widgets/",
+      "llms": "https://www.buildpermitradar.com/llms.txt",
+      "sourceSummary": "https://www.buildpermitradar.com/source-summary/",
+      "priorityChecks": "https://www.buildpermitradar.com/priority-checks/"
+    },
+    {
+      "id": "schoolzonecheck",
+      "name": "SchoolZoneCheck",
+      "siteUrl": "https://www.schoolzonecheck.com",
+      "topic": "school zone and assigned-school lookup",
+      "widgetSlug": "school-zone-checker",
+      "priorityPages": [
+        {
+          "label": "School zone lookup by address",
+          "path": "/school-zone-lookup-by-address/",
+          "url": "https://www.schoolzonecheck.com/school-zone-lookup-by-address/"
+        },
+        {
+          "label": "School finder by address",
+          "path": "/school-finder-by-address/",
+          "url": "https://www.schoolzonecheck.com/school-finder-by-address/"
+        },
+        {
+          "label": "School attendance zone by address",
+          "path": "/school-attendance-zone-by-address/",
+          "url": "https://www.schoolzonecheck.com/school-attendance-zone-by-address/"
+        },
+        {
+          "label": "Dallas ISD school finder",
+          "path": "/districts/dallas-isd-tx-school-finder/",
+          "url": "https://www.schoolzonecheck.com/districts/dallas-isd-tx-school-finder/"
+        },
+        {
+          "label": "Dallas ISD school locator",
+          "path": "/districts/dallas-isd-tx-school-locator/",
+          "url": "https://www.schoolzonecheck.com/districts/dallas-isd-tx-school-locator/"
+        },
+        {
+          "label": "Dallas ISD school zones",
+          "path": "/districts/dallas-isd-tx/",
+          "url": "https://www.schoolzonecheck.com/districts/dallas-isd-tx/"
+        }
+      ],
+      "dataUrl": "https://www.schoolzonecheck.com/data/",
+      "sourceCoveragePage": "https://www.schoolzonecheck.com/data/source-coverage/",
+      "sourceCoverageJson": "https://www.schoolzonecheck.com/data/source-coverage.json",
+      "sourceCoverageCsv": "https://www.schoolzonecheck.com/data/source-coverage.csv",
+      "priorityAnswersJson": "https://www.schoolzonecheck.com/data/priority-answers.json",
+      "answerApiDocs": "https://www.schoolzonecheck.com/data/answer-api/",
+      "answerApi": "https://www.schoolzonecheck.com/api/answer",
+      "widget": "https://www.schoolzonecheck.com/widgets/school-zone-checker/",
+      "widgetsIndex": "https://www.schoolzonecheck.com/widgets/",
+      "llms": "https://www.schoolzonecheck.com/llms.txt",
+      "sourceSummary": "https://www.schoolzonecheck.com/source-summary/",
+      "priorityChecks": "https://www.schoolzonecheck.com/priority-checks/"
+    }
+  ]
+}

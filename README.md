@@ -4,7 +4,7 @@ This repository is the public citation and source-coverage package for a portfol
 
 It is not an official government data source and does not replace official records. Each site links to official source pages and labels confidence, reviewed dates, and fallback limits.
 
-Generated: 2026-06-06T14:59:53.979Z
+Generated: 2026-06-06T17:39:07.302Z
 
 ## Current Priority Assets
 

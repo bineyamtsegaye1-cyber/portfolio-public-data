@@ -4,16 +4,14 @@ This repository is the public citation and source-coverage package for a portfol
 
 It is not an official government data source and does not replace official records. Each site links to official source pages and labels confidence, reviewed dates, and fallback limits.
 
-Generated: 2026-06-06T17:39:07.302Z
+Generated: 2026-06-27T02:54:00.702Z
 
 ## Current Priority Assets
 
 | Site | Public Data | Source Coverage | Answer API Docs | Widget |
 |---|---|---|---|---|
 | TrashDayNow | [Data](https://www.trashdaynow.com/data/) | [Source coverage](https://www.trashdaynow.com/data/source-coverage/) | [API docs](https://www.trashdaynow.com/data/answer-api/) | [Widget](https://www.trashdaynow.com/widgets/trash-day-widget/) |
-| StreetSweepRadar | [Data](https://www.streetsweepradar.com/data/) | [Source coverage](https://www.streetsweepradar.com/data/source-coverage/) | [API docs](https://www.streetsweepradar.com/data/answer-api/) | [Widget](https://www.streetsweepradar.com/widgets/street-sweeping-badge/) |
 | Build Permit Radar | [Data](https://www.buildpermitradar.com/data/) | [Source coverage](https://www.buildpermitradar.com/data/source-coverage/) | [API docs](https://www.buildpermitradar.com/data/answer-api/) | [Widget](https://www.buildpermitradar.com/widgets/permit-lookup-widget/) |
-| SchoolZoneCheck | [Data](https://www.schoolzonecheck.com/data/) | [Source coverage](https://www.schoolzonecheck.com/data/source-coverage/) | [API docs](https://www.schoolzonecheck.com/data/answer-api/) | [Widget](https://www.schoolzonecheck.com/widgets/school-zone-checker/) |
 
 ## Data Files Published By Each Site
 
@@ -36,15 +34,6 @@ Generated: 2026-06-06T17:39:07.302Z
 - [Miami trash pickup tomorrow](https://www.trashdaynow.com/cities/miami-fl-trash-pickup-tomorrow/)
 - [Miami garbage pickup schedule](https://www.trashdaynow.com/cities/miami-fl-trash-pickup/)
 
-### StreetSweepRadar
-
-- [Street sweeping by address](https://www.streetsweepradar.com/street-sweeping-by-address/)
-- [Street sweeping today](https://www.streetsweepradar.com/street-sweeping-today/)
-- [Oakland street sweeping holidays](https://www.streetsweepradar.com/cities/oakland-ca-street-sweeping-holidays/)
-- [DC street sweeping holidays](https://www.streetsweepradar.com/cities/washington-dc-street-sweeping-holidays/)
-- [Glendale street sweeping schedule](https://www.streetsweepradar.com/cities/glendale-ca-street-sweeping-schedule/)
-- [San Diego street sweeping](https://www.streetsweepradar.com/cities/san-diego-ca-street-sweeping/)
-
 ### Build Permit Radar
 
 - [Building permits by address](https://www.buildpermitradar.com/building-permits-by-address/)
@@ -53,20 +42,16 @@ Generated: 2026-06-06T17:39:07.302Z
 - [San Jose permit lookup](https://www.buildpermitradar.com/cities/san-jose-ca-permit-lookup/)
 - [San Jose building permit history](https://www.buildpermitradar.com/cities/san-jose-ca-building-permit-history/)
 - [Houston building permit search](https://www.buildpermitradar.com/cities/houston-tx-building-permits/)
-
-### SchoolZoneCheck
-
-- [School zone lookup by address](https://www.schoolzonecheck.com/school-zone-lookup-by-address/)
-- [School finder by address](https://www.schoolzonecheck.com/school-finder-by-address/)
-- [School attendance zone by address](https://www.schoolzonecheck.com/school-attendance-zone-by-address/)
-- [Dallas ISD school finder](https://www.schoolzonecheck.com/districts/dallas-isd-tx-school-finder/)
-- [Dallas ISD school locator](https://www.schoolzonecheck.com/districts/dallas-isd-tx-school-locator/)
-- [Dallas ISD school zones](https://www.schoolzonecheck.com/districts/dallas-isd-tx/)
+- [Chicago permit search by address](https://www.buildpermitradar.com/cities/chicago-il-building-permit-lookup-by-address/)
+- [Phoenix open permits](https://www.buildpermitradar.com/cities/phoenix-az-open-permits-on-property/)
+- [Seattle SDCI permit lookup](https://www.buildpermitradar.com/cities/seattle-wa-permit-lookup/)
+- [Boston Permit Finder](https://www.buildpermitradar.com/cities/boston-ma-permit-lookup/)
 
 ## Trust Policy
 
 - This repository publishes public citation metadata only.
 - Official source owners retain their own data rights.
+- This staged external-authority pilot currently covers only TrashDayNow and Build Permit Radar.
 - Do not treat source coverage as a final official decision.
 - Never invent trash schedules, street rules, school assignments, permit records, or confidence labels.
 - Use the linked official source and canonical page for final records.

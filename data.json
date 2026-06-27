@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T17:39:07.302Z",
+  "generatedAt": "2026-06-27T02:54:00.702Z",
   "schemaVersion": 1,
   "endpoints": [
     {
@@ -28,31 +28,6 @@
       "url": "https://www.trashdaynow.com/llms.txt"
     },
     {
-      "assetId": "streetsweepradar",
-      "type": "source_coverage_json",
-      "url": "https://www.streetsweepradar.com/data/source-coverage.json"
-    },
-    {
-      "assetId": "streetsweepradar",
-      "type": "source_coverage_csv",
-      "url": "https://www.streetsweepradar.com/data/source-coverage.csv"
-    },
-    {
-      "assetId": "streetsweepradar",
-      "type": "priority_answers_json",
-      "url": "https://www.streetsweepradar.com/data/priority-answers.json"
-    },
-    {
-      "assetId": "streetsweepradar",
-      "type": "answer_api_docs",
-      "url": "https://www.streetsweepradar.com/data/answer-api/"
-    },
-    {
-      "assetId": "streetsweepradar",
-      "type": "llms_txt",
-      "url": "https://www.streetsweepradar.com/llms.txt"
-    },
-    {
       "assetId": "permitpulse",
       "type": "source_coverage_json",
       "url": "https://www.buildpermitradar.com/data/source-coverage.json"
@@ -76,31 +51,6 @@
       "assetId": "permitpulse",
       "type": "llms_txt",
       "url": "https://www.buildpermitradar.com/llms.txt"
-    },
-    {
-      "assetId": "schoolzonecheck",
-      "type": "source_coverage_json",
-      "url": "https://www.schoolzonecheck.com/data/source-coverage.json"
-    },
-    {
-      "assetId": "schoolzonecheck",
-      "type": "source_coverage_csv",
-      "url": "https://www.schoolzonecheck.com/data/source-coverage.csv"
-    },
-    {
-      "assetId": "schoolzonecheck",
-      "type": "priority_answers_json",
-      "url": "https://www.schoolzonecheck.com/data/priority-answers.json"
-    },
-    {
-      "assetId": "schoolzonecheck",
-      "type": "answer_api_docs",
-      "url": "https://www.schoolzonecheck.com/data/answer-api/"
-    },
-    {
-      "assetId": "schoolzonecheck",
-      "type": "llms_txt",
-      "url": "https://www.schoolzonecheck.com/llms.txt"
     }
   ],
   "assets": [
@@ -147,48 +97,6 @@
       ]
     },
     {
-      "id": "streetsweepradar",
-      "name": "StreetSweepRadar",
-      "topic": "street sweeping and curb-rule checks",
-      "siteUrl": "https://www.streetsweepradar.com",
-      "sourceCoverageJson": "https://www.streetsweepradar.com/data/source-coverage.json",
-      "priorityAnswersJson": "https://www.streetsweepradar.com/data/priority-answers.json",
-      "answerApiDocs": "https://www.streetsweepradar.com/data/answer-api/",
-      "widget": "https://www.streetsweepradar.com/widgets/street-sweeping-badge/",
-      "priorityPages": [
-        {
-          "label": "Street sweeping by address",
-          "path": "/street-sweeping-by-address/",
-          "url": "https://www.streetsweepradar.com/street-sweeping-by-address/"
-        },
-        {
-          "label": "Street sweeping today",
-          "path": "/street-sweeping-today/",
-          "url": "https://www.streetsweepradar.com/street-sweeping-today/"
-        },
-        {
-          "label": "Oakland street sweeping holidays",
-          "path": "/cities/oakland-ca-street-sweeping-holidays/",
-          "url": "https://www.streetsweepradar.com/cities/oakland-ca-street-sweeping-holidays/"
-        },
-        {
-          "label": "DC street sweeping holidays",
-          "path": "/cities/washington-dc-street-sweeping-holidays/",
-          "url": "https://www.streetsweepradar.com/cities/washington-dc-street-sweeping-holidays/"
-        },
-        {
-          "label": "Glendale street sweeping schedule",
-          "path": "/cities/glendale-ca-street-sweeping-schedule/",
-          "url": "https://www.streetsweepradar.com/cities/glendale-ca-street-sweeping-schedule/"
-        },
-        {
-          "label": "San Diego street sweeping",
-          "path": "/cities/san-diego-ca-street-sweeping/",
-          "url": "https://www.streetsweepradar.com/cities/san-diego-ca-street-sweeping/"
-        }
-      ]
-    },
-    {
       "id": "permitpulse",
       "name": "Build Permit Radar",
       "topic": "building permit lookup and property due diligence",
@@ -227,48 +135,26 @@
           "label": "Houston building permit search",
           "path": "/cities/houston-tx-building-permits/",
           "url": "https://www.buildpermitradar.com/cities/houston-tx-building-permits/"
-        }
-      ]
-    },
-    {
-      "id": "schoolzonecheck",
-      "name": "SchoolZoneCheck",
-      "topic": "school zone and assigned-school lookup",
-      "siteUrl": "https://www.schoolzonecheck.com",
-      "sourceCoverageJson": "https://www.schoolzonecheck.com/data/source-coverage.json",
-      "priorityAnswersJson": "https://www.schoolzonecheck.com/data/priority-answers.json",
-      "answerApiDocs": "https://www.schoolzonecheck.com/data/answer-api/",
-      "widget": "https://www.schoolzonecheck.com/widgets/school-zone-checker/",
-      "priorityPages": [
-        {
-          "label": "School zone lookup by address",
-          "path": "/school-zone-lookup-by-address/",
-          "url": "https://www.schoolzonecheck.com/school-zone-lookup-by-address/"
         },
         {
-          "label": "School finder by address",
-          "path": "/school-finder-by-address/",
-          "url": "https://www.schoolzonecheck.com/school-finder-by-address/"
+          "label": "Chicago permit search by address",
+          "path": "/cities/chicago-il-building-permit-lookup-by-address/",
+          "url": "https://www.buildpermitradar.com/cities/chicago-il-building-permit-lookup-by-address/"
         },
         {
-          "label": "School attendance zone by address",
-          "path": "/school-attendance-zone-by-address/",
-          "url": "https://www.schoolzonecheck.com/school-attendance-zone-by-address/"
+          "label": "Phoenix open permits",
+          "path": "/cities/phoenix-az-open-permits-on-property/",
+          "url": "https://www.buildpermitradar.com/cities/phoenix-az-open-permits-on-property/"
         },
         {
-          "label": "Dallas ISD school finder",
-          "path": "/districts/dallas-isd-tx-school-finder/",
-          "url": "https://www.schoolzonecheck.com/districts/dallas-isd-tx-school-finder/"
+          "label": "Seattle SDCI permit lookup",
+          "path": "/cities/seattle-wa-permit-lookup/",
+          "url": "https://www.buildpermitradar.com/cities/seattle-wa-permit-lookup/"
         },
         {
-          "label": "Dallas ISD school locator",
-          "path": "/districts/dallas-isd-tx-school-locator/",
-          "url": "https://www.schoolzonecheck.com/districts/dallas-isd-tx-school-locator/"
-        },
-        {
-          "label": "Dallas ISD school zones",
-          "path": "/districts/dallas-isd-tx/",
-          "url": "https://www.schoolzonecheck.com/districts/dallas-isd-tx/"
+          "label": "Boston Permit Finder",
+          "path": "/cities/boston-ma-permit-lookup/",
+          "url": "https://www.buildpermitradar.com/cities/boston-ma-permit-lookup/"
         }
       ]
     }
